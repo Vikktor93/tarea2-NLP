@@ -53,4 +53,5 @@ Se reomienda utilizar **Anaconda** para evitar conflictos de dependencias:
     conda install -c conda-forge pandas numpy matplotlib seaborn scikit-learn gensim nltk spacy -y
 4. **Descargar Recursos**  
    ```bash
-    import nltk; nltk.download('stopwords')
+    import nltk
+    nltk.download('stopwords')
